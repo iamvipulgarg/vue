@@ -1,0 +1,98 @@
+#. What is Vue JS?
+##################
+
+-> It is just a open source JS frame, which we use to create or write code to web applications and interactive User Interface.
+-> It is mainly use to create SPA.
+-> It was developed by Evan You, ex employee of Google.
+-> It's first version was released in Feb, 2014.
+-> Current Vue versions is 3.
+
+#. Features:
+#############
+
+-> Easy Learn, apply and better preformance then Reactjs.
+-> Directive: Vue Provides some special symbols which for conditional rendering, looping, which always get started "v-", like: v-if, v-for, v-model etc.
+-> Reactivity: Means, ones you specify some variable or data in a vue page, vue then will automatically change the data if you make changes in the original source or data.
+-> Rerendering: it is used to specify the data  you want to show in your vue page, using place holder, {{ }}.
+-> Watcher: it is used check that data or variables, which value you are changing. Vue manage it by itself.
+
+#. What is SPA?
+###############
+
+-> SPAs stands for "Single Page applications".
+-> In this type of application, unlike traditional html pages, web page content send by only a single file.
+-> In this only a single html file been sent to the browser, but the content of the file will get change according to the requirements or user.
+-> Because it updates only some specific parts of the web page, so, it don't get reload everytime.
+
+#. Ways to create APIs in Vue:
+##############################
+
+(). Optional API: 
+=================
+    -> it is the old way to create API in Vue.
+    -> In this way we write date, functions, and variables in separate section.
+    -> It can still  used in small project.
+    -> If you're using "Vue 2", it will fully support it.
+
+
+(). Components API:
+===================
+    -> this was introduced since "Vue 3".
+    -> In this you write all of your data, function and other code in a sinlge unit or file.
+    -> It is mostly used in large scale appliation.
+
+#. prerequsite:
+################
+
+-> Basic knowledge of JS and ES6+ like promises, async / awit, and fetch.
+-> "npm" should be installed in your system.
+
+
+#. Commands to work with Vue:
+#############################
+
+(1). "npm create vite@latest": it is used to create projects, but in this way to select project type like reactjs, vuejs etc.
+
+(2). "npm create vue@latest": it is specially only to create only vuejs project.
+
+(3). "npm install": it is used to install specified packages.
+
+(4). "npm run dev": it is used to run our vue project on local server.
+
+(5). "npm run build": it is used to convert our vue project in production ready code.
+
+#. Folder Structure:
+####################
+
+(). node_modules: it contains all the installed package or modules.
+
+(). public: it contains images, video, and other content file want to use in our vue file.
+
+(). src: it contains the components (vue files) of our applications.
+
+(). .gitignore: it is used to specify the "github" id.
+
+(). index.html: it is file that will be sent to the browser, and in this file you will update the content.
+
+(). jsconfig.json: it is used to store data in json format.
+
+(). package.json: it contains the information about our project.
+
+(). package-lock.json: it is used to contains the detailed information about our project, like if is install packages depends on another package, you can check it in it.
+
+(). README.md: it is used to provide documentation about your project.
+
+
+#. What are SFC?
+################
+
+-> The ".vue" extensions files we create in "src" are called SFC.
+-> SFC stand for "Single File Component".
+-> In these, file you specify logical part (JS), Template (HTML) and Style (CSS) in separate sections.
+
+<script>: to contain "js" part.
+<template>: to contain "html "part.
+<style>: to contain "css" part.
+
+-> Regarding these tags, vue internally uses, "vue/compiler-sfc" to compile our component code in JS and CSS.
+
